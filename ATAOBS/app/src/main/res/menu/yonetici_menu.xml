@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item android:id="@+id/yemekekleyegitbutton"
+            android:title=" YEMEK EKLE  "
+            />
+        <item android:id="@+id/duyuruekleyegitbutton"
+            android:title="DUYURU EKLE  "
+            />
+        <item android:id="@+id/dersekleyegitbutton"
+            android:title="DERS EKLE "
+            />
+        <item android:id="@+id/kayitonayagit"
+            android:title="KAYIT ONAY "
+            />
+        <item android:id="@+id/cikis"
+            android:title="CIKIŞ "
+            />
+
+    </group>
+
+
+</menu>

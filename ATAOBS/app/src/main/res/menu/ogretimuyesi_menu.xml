@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item android:id="@+id/derslerilistele"
+            android:title="Dersleri Listele "
+            />
+        <item android:id="@+id/notgirme"
+            android:title="Notları Gir  "
+            />
+        <item android:id="@+id/notguncelle"
+            android:title="Notları Güncelle "
+            />
+        <item android:id="@+id/cikis"
+            android:title="Cıkış Yap "
+            />
+
+    </group>
+</menu>

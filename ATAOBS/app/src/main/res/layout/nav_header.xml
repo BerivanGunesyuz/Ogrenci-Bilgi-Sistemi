@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="155dp"
+    android:background="@drawable/kartal"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:layout_width="105dp"
+        android:layout_height="95dp"
+        android:src="@drawable/kullanici">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/kulliciIsmitext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Kullanici Adi"
+        android:textColor="@color/black"
+
+
+        ></TextView>
+
+
+</LinearLayout>

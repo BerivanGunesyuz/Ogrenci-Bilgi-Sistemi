@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DersEkleFragment">
+
+    <EditText
+        android:id="@+id/dersaditext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:hint="DERSİN ADI :"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/derskodutext"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/derskodutext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginBottom="22dp"
+        android:ems="10"
+        android:hint="DERSİN KODU :"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/hocaaditext"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dersaditext" />
+
+    <EditText
+        android:id="@+id/hocaaditext"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="14dp"
+        android:ems="10"
+        android:hint="DERSİ VEREN ÖĞRETİM ÜYESİ:"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/derseklebutton"
+        app:layout_constraintEnd_toEndOf="@+id/derseklebutton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/derskodutext" />
+
+    <Button
+        android:id="@+id/derseklebutton"
+        android:layout_width="194dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="294dp"
+        android:text="DERS EKLE "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hocaaditext" />
+</androidx.constraintlayout.widget.ConstraintLayout>

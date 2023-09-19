@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+     <group>
+           <item android:id="@+id/nav_kisiselBilgiler"
+         android:title="Kişisel Bilgiler "
+         />
+           <item android:id="@+id/nav_notlarim"
+               android:title="Notlar "
+               />
+           <item android:id="@+id/nav_derslerim"
+               android:title="Dersler "
+               />
+         <item android:id="@+id/nav_cikis"
+             android:title="Cıkış Yap "
+             />
+
+     </group>
+
+
+
+</menu>

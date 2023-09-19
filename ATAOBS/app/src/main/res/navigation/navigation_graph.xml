@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/girisFragment">
+
+    <fragment
+        android:id="@+id/girisFragment"
+        android:name="com.berivangunesyuz.ataobs.GirisFragment"
+        android:label="fragment_giris"
+        tools:layout="@layout/fragment_giris" >
+        <action
+            android:id="@+id/action_girisFragment_to_kayitFragment"
+            app:destination="@id/kayitFragment" />
+        <action
+            android:id="@+id/action_girisFragment_to_sifreDegistirFragment"
+            app:destination="@id/sifreDegistirFragment" />
+        <action
+            android:id="@+id/action_girisFragment_to_ogrenciFragment"
+            app:destination="@id/ogrenciFragment" />
+        <action
+            android:id="@+id/action_girisFragment_to_yoneticiFragment"
+            app:destination="@id/yoneticiFragment" />
+        <action
+            android:id="@+id/action_girisFragment_to_ogretimGorevlisiFragment"
+            app:destination="@id/ogretimGorevlisiFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/kayitFragment"
+        android:name="com.berivangunesyuz.ataobs.KayitFragment"
+        android:label="fragment_kayit"
+        tools:layout="@layout/fragment_kayit" >
+        <action
+            android:id="@+id/action_kayitFragment_to_girisFragment"
+            app:destination="@id/girisFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sifreDegistirFragment"
+        android:name="com.berivangunesyuz.ataobs.sifreDegistirFragment"
+        android:label="fragment_sifre_degistir"
+        tools:layout="@layout/fragment_sifre_degistir" />
+    <fragment
+        android:id="@+id/kisiselBilgilerFragment2"
+        android:name="com.berivangunesyuz.ataobs.KisiselBilgilerFragment"
+        android:label="fragment_kisisel_bilgiler"
+        tools:layout="@layout/fragment_kisisel_bilgiler" />
+    <fragment
+        android:id="@+id/dersListesiFragment"
+        android:name="com.berivangunesyuz.ataobs.DersListesiFragment"
+        android:label="fragment_ders_listesi"
+        tools:layout="@layout/fragment_ders_listesi" />
+    <fragment
+        android:id="@+id/notlarFragment"
+        android:name="com.berivangunesyuz.ataobs.NotlarFragment"
+        android:label="fragment_notlar"
+        tools:layout="@layout/fragment_notlar" />
+    <fragment
+        android:id="@+id/ogrenciFragment"
+        android:name="com.berivangunesyuz.ataobs.OgrenciFragment"
+        android:label="fragment_ogrenci"
+        tools:layout="@layout/fragment_ogrenci" >
+        <action
+            android:id="@+id/action_ogrenciFragment_to_kisiselBilgilerFragment2"
+            app:destination="@id/kisiselBilgilerFragment2" />
+        <action
+            android:id="@+id/action_ogrenciFragment_to_notlarFragment"
+            app:destination="@id/notlarFragment" />
+        <action
+            android:id="@+id/action_ogrenciFragment_to_dersListesiFragment"
+            app:destination="@id/dersListesiFragment" />
+        <action
+            android:id="@+id/action_ogrenciFragment_to_girisFragment"
+            app:destination="@id/girisFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/yoneticiFragment"
+        android:name="com.berivangunesyuz.ataobs.YoneticiFragment"
+        android:label="fragment_yonetici"
+        tools:layout="@layout/fragment_yonetici" >
+        <action
+            android:id="@+id/action_yoneticiFragment_to_yemekEkleFragment"
+            app:destination="@id/yemekEkleFragment" />
+        <action
+            android:id="@+id/action_yoneticiFragment_to_duyuruEkleFragment"
+            app:destination="@id/duyuruEkleFragment" />
+        <action
+            android:id="@+id/action_yoneticiFragment_to_dersEkleFragment"
+            app:destination="@id/dersEkleFragment" />
+        <action
+            android:id="@+id/action_yoneticiFragment_to_girisFragment"
+            app:destination="@id/girisFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/duyuruEkleFragment"
+        android:name="com.berivangunesyuz.ataobs.DuyuruEkleFragment"
+        android:label="fragment_duyuru_ekle"
+        tools:layout="@layout/fragment_duyuru_ekle" />
+    <fragment
+        android:id="@+id/yemekEkleFragment"
+        android:name="com.berivangunesyuz.ataobs.YemekEkleFragment"
+        android:label="fragment_yemek_ekle"
+        tools:layout="@layout/fragment_yemek_ekle" />
+    <fragment
+        android:id="@+id/dersEkleFragment"
+        android:name="com.berivangunesyuz.ataobs.DersEkleFragment"
+        android:label="fragment_ders_ekle"
+        tools:layout="@layout/fragment_ders_ekle" />
+    <fragment
+        android:id="@+id/ogretimGorevlisiFragment"
+        android:name="com.berivangunesyuz.ataobs.OgretimGorevlisiFragment"
+        android:label="fragment_ogretim_gorevlisi"
+        tools:layout="@layout/fragment_ogretim_gorevlisi" />
+</navigation>

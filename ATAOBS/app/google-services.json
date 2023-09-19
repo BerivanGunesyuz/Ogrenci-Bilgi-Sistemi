@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "689870849365",
+    "project_id": "obsveriler",
+    "storage_bucket": "obsveriler.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:689870849365:android:b42fe2cc5600088d199bdc",
+        "android_client_info": {
+          "package_name": "com.berivangunesyuz.ataobs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "689870849365-5ko4ro3b31j2pb556h87re60ha2gvpjp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4iEKmHkGmhNTaqQDXFEArf7_iJJ2_9m4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "689870849365-5ko4ro3b31j2pb556h87re60ha2gvpjp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

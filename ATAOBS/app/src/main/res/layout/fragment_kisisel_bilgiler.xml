@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KisiselBilgilerFragment">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="218dp"
+        android:layout_height="52dp"
+        android:text="KİŞİSEL BİLGİLER"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="4dp" />
+
+    <TextView
+        android:id="@+id/kisiselbilgilerigoster"
+        android:layout_width="368dp"
+        android:layout_height="547dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="56dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
